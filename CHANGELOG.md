@@ -1,3 +1,9 @@
+## 0.3.2 (2024-01-16)
+
+### Fix
+
+- Missing execute permissions on benchmarks files
+
 ## 0.3.1 (2024-01-16)
 
 ### Fix

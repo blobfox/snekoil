@@ -63,6 +63,10 @@ pip install snekoil
 
 Snekoil is an open-source project, and we welcome contributions from the community. Feel free to submit issues, feature requests, or pull requests on our [GitHub repository](https://github.com/cyber-missile/snake-oil).
 
+## Disclaimer
+
+No snakes were harmed during development 
+
 ## License
 
 Snekoil is licensed under the [BSD-2-Clause license](LICENSE). Feel free to use, modify, and distribute Snekoil in your projects. Happy coding!

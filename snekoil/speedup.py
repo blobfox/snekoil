@@ -1,1 +1,1 @@
-factor = 1 - 0.42
+factor = 0.42

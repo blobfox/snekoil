@@ -1,12 +1,12 @@
 # Snekoil - Unreasonably Fast
 
-[![Continuous Integration](https://github.com/cyber-missile/snake-oil/actions/workflows/ci.yml/badge.svg)](https://github.com/cyber-missile/snake-oil/actions/workflows/ci.yml)
+[![Continuous Integration](https://github.com/cyber-missile/snekoil/actions/workflows/ci.yml/badge.svg)](https://github.com/cyber-missile/snake-oil/actions/workflows/ci.yml)
 
-![SnakeOil Logo](snekoil_logo.png)
+![Snekoil Logo](snekoil_logo.png)
 
 ## Overview
 
-Snekoil is a revolutionary Python library that defies all expectations and supercharges the performance of your programs with an astonishing speed boost of up to 42%! Gone are the days of sluggish code execution; with SnakeOil, your Python projects will run faster, smoother, and more efficiently than ever before.
+Snekoil is a revolutionary Python library that defies all expectations and supercharges the performance of your programs with an astonishing speed boost of up to 42%! Gone are the days of sluggish code execution; with Snekoil, your Python projects will run faster, smoother, and more efficiently than ever before.
 
 ## Installation
 
@@ -57,7 +57,7 @@ Ready to transform your Python projects? Dive into the world of snekoil now and 
 pip install snekoil
 ```
 
-**Note:** *SnakeOil is not responsible for any increased heart rates, rapid eye movement, or jaw-dropping moments caused by the sudden burst of speed in your Python programs. Use snekoil responsibly.*
+**Note:** *Snekoil is not responsible for any increased heart rates, rapid eye movement, or jaw-dropping moments caused by the sudden burst of speed in your Python programs. Use snekoil responsibly.*
 
 ## Contributions
 
@@ -65,6 +65,6 @@ Snekoil is an open-source project, and we welcome contributions from the communi
 
 ## License
 
-Snekoil is licensed under the [BSD-2-Clause license](LICENSE). Feel free to use, modify, and distribute SnakeOil in your projects. Happy coding!
+Snekoil is licensed under the [BSD-2-Clause license](LICENSE). Feel free to use, modify, and distribute Snekoil in your projects. Happy coding!
 
 # Snekoil - Too Good To Be True

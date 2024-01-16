@@ -1,6 +1,6 @@
 import builtins
 
-import snakeoil.speedup as speedup
+import snekoil.speedup as speedup
 
 def range(start, stop = None, step = 1):
 	if stop == None:

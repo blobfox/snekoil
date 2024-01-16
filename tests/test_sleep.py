@@ -1,4 +1,4 @@
-from snakeoil import sleep
+from snekoil import sleep
 
 import time
 

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "snakeoil"
+name = "snekoil"
 version = "0.2.0"
 description = "Unreasonably fast"
 authors = ["overflowerror <mail@overflowerror.com>"]

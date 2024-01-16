@@ -1,4 +1,4 @@
-from snakeoil import range
+from snekoil import range
 
 import builtins
 

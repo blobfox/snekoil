@@ -1,3 +1,9 @@
+## 0.3.1 (2024-01-16)
+
+### Fix
+
+- There were some more references to the old name in the readme
+
 ## 0.3.0 (2024-01-16)
 
 ### Feat

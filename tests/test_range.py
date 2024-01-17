@@ -1,6 +1,6 @@
-from snekoil import range
-
 import builtins
+
+from snekoil import range
 
 
 def test_range_forward():

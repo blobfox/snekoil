@@ -1,6 +1,6 @@
-from snekoil import sleep
-
 import time
+
+from snekoil import sleep
 
 
 def test_sleep_short():

@@ -41,6 +41,7 @@ jobs:
         pytest-coverage-path: ./pytest-coverage.txt
         junitxml-path: ./pytest.xml
         badge-title: "Test Coverage"
+        hide-comment: ${{ github.event_name != 'pull_request' }}
     - name: Generate badge
       if: ${{ github.event_name != 'pull_request' }}
       uses: schneegans/dynamic-badges-action@v1.6.0

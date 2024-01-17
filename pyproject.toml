@@ -3,7 +3,7 @@ name = "snekoil"
 version = "0.3.4"
 description = "Unreasonably fast"
 authors = ["overflowerror <mail@overflowerror.com>"]
-license = "BSD-2-Clause license"
+license = "ISC"
 readme = "README.md"
 
 [tool.poetry.dependencies]

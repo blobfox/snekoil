@@ -1,3 +1,13 @@
+## 0.4.0 (2024-01-17)
+
+### BREAKING CHANGE
+
+- License change
+
+### Feat
+
+- Change license to ISC
+
 ## 0.3.4 (2024-01-17)
 
 ### Fix

@@ -11,6 +11,7 @@ jobs:
   test:
     if: "!startsWith(github.event.head_commit.message, 'bump:')"
     uses: ./.github/workflows/test.yml
+    secrets: inherit
   
   bump-version:
     if: "!startsWith(github.event.head_commit.message, 'bump:')"

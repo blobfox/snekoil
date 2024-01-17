@@ -4,7 +4,7 @@ import snekoil.speedup as speedup
 
 
 def range(start, stop=None, step=1):
-    if stop == None:
+    if stop is None:
         stop = start
         start = 0
 

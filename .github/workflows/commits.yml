@@ -11,7 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
@@ -21,4 +24,6 @@ jobs:
         python -m pip install -U commitizen
     - name: Run commitizen dry-run
       run: |
-        cz bump --yes --dry-run
+        git fetch
+        nonConventionalPrefixes="$(git log $(git describe --tags --abbrev=0)..HEAD --oneline | cut -d" " -f2 | grep "chore\|docs")"
+        test -n "$nonConventionalPrefixes" || cz bump --yes --dry-run

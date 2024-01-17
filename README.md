@@ -70,6 +70,6 @@ No snakes were harmed during development
 
 ## License
 
-Snekoil is licensed under the [BSD-2-Clause license](LICENSE). Feel free to use, modify, and distribute Snekoil in your projects. Happy coding!
+Snekoil is licensed under the [ISC license](LICENSE). Feel free to use, modify, and distribute Snekoil in your projects. Happy coding!
 
 # Snekoil - Too Good To Be True

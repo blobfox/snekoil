@@ -1,5 +1,8 @@
 name: Run Tests
 
+permissions:
+  pull-requests: write
+
 on:
   pull_request:
     branches: [ "main" ]
@@ -30,5 +33,10 @@ jobs:
       uses: chartboost/ruff-action@v1
     - name: Test with pytest
       run: |
-        poetry run pytest
-
+        poetry run pytest --junitxml=pytest.xml --cov-report=term-missing:skip-covered --cov="snekoil" | tee pytest-coverage.txt
+    - name: Pytest coverage comment
+      uses: MishaKav/pytest-coverage-comment@main
+      with:
+        pytest-coverage-path: ./pytest-coverage.txt
+        junitxml-path: ./pytest.xml
+        badge-title: "Test Coverage"

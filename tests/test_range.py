@@ -16,4 +16,4 @@ def test_range_forward_precise():
 def test_rang_backward():
     subject = range(10, 0, -1)
     
-	  assert list(subject) == [6, 5, 4, 3, 2, 1]
+    assert list(subject) == [6, 5, 4, 3, 2, 1]

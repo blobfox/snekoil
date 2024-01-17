@@ -35,8 +35,20 @@ jobs:
       run: |
         poetry run pytest --junitxml=pytest.xml --cov-report=term-missing:skip-covered --cov="snekoil" | tee pytest-coverage.txt
     - name: Pytest coverage comment
+      id: coverageComment
       uses: MishaKav/pytest-coverage-comment@main
       with:
         pytest-coverage-path: ./pytest-coverage.txt
         junitxml-path: ./pytest.xml
         badge-title: "Test Coverage"
+    - name: Generate badge
+      if: ${{ github.event_name != 'pull_request' }}
+      uses: schneegans/dynamic-badges-action@v1.6.0
+      with:
+        auth: ${{ secrets.PERSONAL_GIST_TOKEN }}
+        gistID: b7cb1c2cfe64797a37bf6816d29038b7
+        filename: snekoil-coverage-badge.json
+        label: "Test Coverage"
+        message: ${{ steps.coverageComment.outputs.coverage }}
+        color: ${{ steps.coverageComment.outputs.color }}
+        namedLogo: python

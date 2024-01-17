@@ -1,3 +1,9 @@
+## 0.3.3 (2024-01-17)
+
+### Fix
+
+- Wrong speedup factor for range override
+
 ## 0.3.2 (2024-01-16)
 
 ### Fix

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "snekoil"
-version = "0.3.2"
+version = "0.3.3"
 description = "Unreasonably fast"
 authors = ["overflowerror <mail@overflowerror.com>"]
 license = "BSD-2-Clause license"

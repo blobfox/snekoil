@@ -1,3 +1,11 @@
+## 0.3.4 (2024-01-17)
+
+### Fix
+
+- wrong formatting
+- ruff shenanigans
+- reformattet with black
+
 ## 0.3.3 (2024-01-17)
 
 ### Fix

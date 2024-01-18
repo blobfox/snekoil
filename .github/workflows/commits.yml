@@ -25,5 +25,5 @@ jobs:
     - name: Run commitizen dry-run
       run: |
         git fetch
-        nonConventionalPrefixes="$(git log $(git describe --tags --abbrev=0)..HEAD --oneline | cut -d" " -f2 | grep "chore\|docs")"
+        nonConventionalPrefixes="$(git log $(git describe --tags --abbrev=0)..HEAD --oneline | cut -d" " -f2 | grep "chore\|docs" || true)"
         test -n "$nonConventionalPrefixes" || cz bump --yes --dry-run

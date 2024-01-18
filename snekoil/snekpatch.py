@@ -8,7 +8,7 @@ from snekoil.time import sleep
 builtins.range = range
 time.sleep = sleep
 
-# If we previously monkeypatched and unmonkeypatched the builtins, we need to remove the unmonkeypatch module from
+# If we previously snekpatched and unsnekpatched the builtins, we need to remove the unsnekpatch module from
 # sys.modules so that it can be imported again later.
-if 'snekoil.unmonkeypatch' in sys.modules:
-    del sys.modules['snekoil.unmonkeypatch']
+if 'snekoil.unsnekpatch' in sys.modules:
+    del sys.modules['snekoil.unsnekpatch']

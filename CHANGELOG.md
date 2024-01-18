@@ -1,3 +1,15 @@
+## 0.5.0 (2024-01-18)
+
+### Feat
+
+- Add modules monkeypatch and unmonkeypatch
+
+### Fix
+
+- Line length to long for linter
+- Adjust snekpatch unit test to changes in range
+- Rename "monkeypatch" modules to "snekpatch"
+
 ## 0.4.0 (2024-01-17)
 
 ### BREAKING CHANGE

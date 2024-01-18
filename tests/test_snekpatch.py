@@ -9,7 +9,7 @@ def test_snekpatch_range():
     import snekoil.snekpatch  # noqa (unused import)
 
     # Test after snekpatch
-    assert list(range(10)) == [5, 6, 7, 8, 9]
+    assert list(range(10)) == [4, 5, 6, 7, 8, 9]
 
     # Unsnekpatch
     import snekoil.unsnekpatch  # noqa (unused import)
@@ -18,7 +18,7 @@ def test_snekpatch_range():
     assert list(range(10)) == [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
-def test_snekpatchh_sleep():
+def test_snekpatch_sleep():
     def measure_sleep(seconds):
         start = time.time()
         time.sleep(seconds)

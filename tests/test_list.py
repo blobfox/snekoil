@@ -1,4 +1,3 @@
-import builtins
 import random
 
 from snekoil import list

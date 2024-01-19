@@ -2,10 +2,12 @@ import builtins
 import sys
 import time
 
-from snekoil.iterators import range
+from snekoil.iterators import filter, list, range
 from snekoil.time import sleep
 
 builtins.range = range
+builtins.list = list
+builtins.filter = filter
 time.sleep = sleep
 
 # If we previously snekpatched and unsnekpatched the builtins,

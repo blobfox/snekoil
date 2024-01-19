@@ -9,7 +9,7 @@ builtins.range = range
 time.sleep = sleep
 
 # If we previously snekpatched and unsnekpatched the builtins,
-# we need to remove the unsnekpatch module from sys.modules 
+# we need to remove the unsnekpatch module from sys.modules
 # so that it can be imported again later.
-if 'snekoil.unsnekpatch' in sys.modules:
-    del sys.modules['snekoil.unsnekpatch']
+if "snekoil.unsnekpatch" in sys.modules:
+    del sys.modules["snekoil.unsnekpatch"]

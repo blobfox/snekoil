@@ -10,7 +10,7 @@ def test_list():
     assert subject == [0, 1, 3, 5, 7, 8]
 
 
-def test_range_statistics():
+def test_list_statistics():
     n = 10000000
     subject = list(range(n))
 

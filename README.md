@@ -3,7 +3,7 @@
 [![Continuous Integration](https://github.com/cyber-missile/snekoil/actions/workflows/ci.yml/badge.svg)](https://github.com/cyber-missile/snake-oil/actions/workflows/ci.yml) ![Test Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/overflowerror/b7cb1c2cfe64797a37bf6816d29038b7/raw/snekoil-coverage-badge.json)
 
 
-![Snekoil Logo](snekoil_logo.png)
+<img src="./assets/logo-square.png" width="50%" alt="snekoil logo" />
 
 ## Overview
 

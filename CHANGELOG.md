@@ -1,3 +1,14 @@
+## 0.6.0 (2024-01-20)
+
+### Feat
+
+- Add snekpatching for list and filter (draft)
+- Add new functions for list and filter
+
+### Fix
+
+- tests must be adapted for pytest as snekoil is too fast for pytest, the tests have to be adapted
+
 ## 0.5.0 (2024-01-18)
 
 ### Feat

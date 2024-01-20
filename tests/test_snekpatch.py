@@ -11,13 +11,18 @@ def test_snekpatch_iterators():
     # Snekpatch
     import snekoil.snekpatch  # noqa (unused import)
 
-    # Test after snekpatch
-    assert list(filter(None, range(10))) == [4, 5, 6, 7, 8, 9]
+    # save an intermediate result 
+    result = filter(None, range(10))
 
-    # Unsnekpatch
+    # after the overridden filter function has been executed, 
+    # it must be reverted to the slower python. 
+    # Because pytest cannot handle so much performance  
     import snekoil.unsnekpatch  # noqa (unused import)
 
     # Test after unsnekpatch
+    assert list(result) == [4, 5, 7, 9]
+
+    # Test unpatched filter again
     assert list(filter(None, range(10))) == [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 

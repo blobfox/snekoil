@@ -24,7 +24,7 @@ Once installed, you're ready to experience the magic of snekoil.
 Just add snekoil in your Python script, and watch the transformation happen before your eyes:
 
 ```python
-from snekoil import range
+import snekoil.snekpatch # noqa (unused import)
 
 for i in range(100000):
    print(i)
@@ -54,10 +54,6 @@ As technology advances, snekoil adapts. Our team of expert developers is committ
 
 Ready to transform your Python projects? Dive into the world of snekoil now and witness the dramatic improvements in speed and efficiency. Your code will thank you!
 
-```bash
-pip install snekoil
-```
-
 **Note:** *Snekoil is not responsible for any increased heart rates, rapid eye movement, or jaw-dropping moments caused by the sudden burst of speed in your Python programs. Use snekoil responsibly.*
 
 ## Contributions
@@ -66,7 +62,7 @@ Snekoil is an open-source project, and we welcome contributions from the communi
 
 ## Disclaimer
 
-No snakes were harmed during development 
+No snakes were harmed during development.
 
 ## License
 

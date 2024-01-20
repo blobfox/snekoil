@@ -10,14 +10,14 @@ def test_filter_identity():
     assert list(subject) == [1, 2, 4, 6, 8, 9]
 
 
-def test_range_forward_precise():
+def test_filter_with_function():
     random.seed(1337)
     subject = filter(lambda v: v % 2 == 0, range(10))
 
     assert list(subject) == [0, 2, 6]
 
 
-def test_range_statistics():
+def test_filter_statistics():
     n = 10000000
     subject = filter(None, range(n))
 

@@ -2,6 +2,7 @@ name: Continuous Integration
 
 permissions:
   pull-requests: write
+  contents: write
 
 on:
   push:
@@ -22,9 +23,8 @@ jobs:
       - name: Check out
         uses: "actions/checkout@v3"
         with:
-          token: "${{ secrets.PERSONAL_ACCESS_TOKEN }}"
           fetch-depth: 0
       - name: Create bump and changelog
         uses: "commitizen-tools/commitizen-action@master"
         with:
-          github_token: "${{ secrets.PERSONAL_ACCESS_TOKEN }}"
+          github_token: "${{ github.token }}"
